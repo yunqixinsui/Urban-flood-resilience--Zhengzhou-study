@@ -20,7 +20,7 @@ fontname_tnr = "Times New Roman"
 save_path = r'YOUR_LOCAL_PATH\error_samples_and_district_distribution_merged'
 os.makedirs(save_path, exist_ok=True)
 
-file_path = r'YOUR_LOCAL_PATH\dataset_updated.xlsx'
+file_path = r'YOUR_LOCAL_PATH\dataset_randomly generated beta version.xlsx'
 
 # Administrative district names (for annotation)
 district_names = [
@@ -537,3 +537,4 @@ plt.savefig(out_path, dpi=300)
 print(f"Figure saved to: {out_path}")
 print(f"Training accuracy: base_w={acc1:.4f} | spatial_w={acc2:.4f} | "
       f"selected={'spatial' if acc2 > acc1 else 'base'}")
+
