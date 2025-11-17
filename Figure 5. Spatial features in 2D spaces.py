@@ -21,7 +21,7 @@ matplotlib.rcParams['legend.fontsize'] = 32             # Legend font size
 # -----------------------------
 # 2. Read the Excel file
 # -----------------------------
-file_path = r'YOUR_LOCAL_PATH\original_OD.xlsx'  # Replace with the full path to your local Excel file
+file_path = r'YOUR_LOCAL_PATH\original OD_randomly generated beta version.xlsx'  # Replace with the full path to your local Excel file
 df = pd.read_excel(file_path)
 
 # -----------------------------
@@ -179,3 +179,4 @@ plt.close()
 
 output_data_path = r'YOUR_LOCAL_PATH\updated_dataset_with_2d_distances.xlsx'  # Replace with the full path to your local output Excel file
 df.to_excel(output_data_path, index=False)
+
