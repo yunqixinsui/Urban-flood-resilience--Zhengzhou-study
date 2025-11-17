@@ -16,7 +16,7 @@ mpl.rcParams['ytick.labelsize'] = 26      # y-axis tick label size
 # ------------------------------------------------------------
 # 2. Input data
 # ------------------------------------------------------------
-file_path = r'YOUR_LOCAL_PATH\Daily_signal_change_ratios_by_district.xlsx'
+file_path = r'YOUR_LOCAL_PATH\original OD_randomly generated beta version.xlsx'
 df = pd.read_excel(file_path)
 
 print("Columns in the DataFrame:", df.columns.tolist())
@@ -210,3 +210,4 @@ plt.tight_layout(rect=[0, 0, 1, 0.95])
 output_path = r'YOUR_LOCAL_PATH\Grouped_bar_plot_daily_signal_change_ratios.png'
 plt.savefig(output_path, dpi=400)
 print(f"Figure saved to: {output_path}")
+
