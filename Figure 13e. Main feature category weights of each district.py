@@ -32,7 +32,7 @@ main_category_colors = {
 # ------------------------------------------------------------
 # 1. Load and pre-process data
 # ------------------------------------------------------------
-file_path = r'YOUR_LOCAL_PATH\dataset_updated.xlsx'
+file_path = r'YOUR_LOCAL_PATH\dataset_randomly generated beta version.xlsx'
 data = pd.read_excel(file_path)
 data.rename(columns={'administrative district ID': 'district_id'}, inplace=True)
 
@@ -332,3 +332,4 @@ plt.tight_layout()
 output_path = r'YOUR_LOCAL_PATH\District_level_main_category_contributions.png'
 plt.savefig(output_path, dpi=300, bbox_inches='tight')
 print(f"Figure saved to: {output_path}")
+
